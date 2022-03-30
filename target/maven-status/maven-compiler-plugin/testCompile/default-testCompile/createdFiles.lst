@@ -1,0 +1,3 @@
+com\UsersApi\Request\GetRequestAPI.class
+com\UsersApi\Request\PostRequestAPI.class
+com\UsersApi\BaseTest\BaseTest.class

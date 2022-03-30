@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-30T09:45:14 IST" name="ApiAutomationTest" finished-at="2022-03-30T09:45:17 IST" duration-ms="3055">
+    <groups>
+    </groups>
+    <test started-at="2022-03-30T09:45:14 IST" name="RegressionTest" finished-at="2022-03-30T09:45:17 IST" duration-ms="3055">
+      <class name="com.UsersApi.Request.PostRequestAPI">
+        <test-method signature="AddNewUser()[pri:1, instance:com.UsersApi.Request.PostRequestAPI@d4342c2]" started-at="2022-03-30T09:45:16 IST" name="AddNewUser" finished-at="2022-03-30T09:45:17 IST" duration-ms="922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewUser -->
+      </class> <!-- com.UsersApi.Request.PostRequestAPI -->
+      <class name="com.UsersApi.Request.GetRequestAPI">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.UsersApi.Request.GetRequestAPI@63a65a25]" started-at="2022-03-30T09:45:13 IST" name="setup" finished-at="2022-03-30T09:45:14 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GetUsersLists()[pri:1, instance:com.UsersApi.Request.GetRequestAPI@63a65a25]" started-at="2022-03-30T09:45:14 IST" name="GetUsersLists" finished-at="2022-03-30T09:45:15 IST" duration-ms="1434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUsersLists -->
+        <test-method signature="GetSingleUserDetails()[pri:2, instance:com.UsersApi.Request.GetRequestAPI@63a65a25]" started-at="2022-03-30T09:45:15 IST" name="GetSingleUserDetails" finished-at="2022-03-30T09:45:16 IST" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetSingleUserDetails -->
+      </class> <!-- com.UsersApi.Request.GetRequestAPI -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- ApiAutomationTest -->
+</testng-results>
